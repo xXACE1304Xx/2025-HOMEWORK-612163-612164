@@ -10,4 +10,5 @@ o regalarli se pensi che possano ingraziarti qualcuno.
 
 
 ## Autori
-- [xXACE1304Xx](https://github.com/xXACE1304Xx): matricola 612164
+- [xXACE1304Xx](https://github.com/xXACE1304Xx) -> Matricola 612164
+- [Sharki8](https://github.com/Sharki8) -> Matricola 612163
