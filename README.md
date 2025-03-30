@@ -1,6 +1,6 @@
 # Dia Dia
 
-## Descrizione
+### Descrizione
 Ti trovi nell'Università, ma oggi è diversa dal solito...
 Meglio andare al più presto in biblioteca a studiare. Ma dov'è?
 I locali sono popolati da strani personaggi, alcuni amici, altri... chissà!
