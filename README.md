@@ -12,7 +12,7 @@ o regalarli se pensi che possano ingraziarti qualcuno.
 
 
 ## Autori
-- [Docente Programmazione orientata agli oggetti](https://www.uniroma3.it/persone/a3JDN1RYZ1A2TFcyUjZQQTA5R1BHR09HYlNGRWlNVi8raHR0OWtmUm9jYz0=/); Università degli studi Roma Tre]
+- [Docente Programmazione orientata agli oggetti](https://www.uniroma3.it/persone/a3JDN1RYZ1A2TFcyUjZQQTA5R1BHR09HYlNGRWlNVi8raHR0OWtmUm9jYz0=/) Università degli studi Roma Tre
 - [Sharki8](https://github.com/Sharki8) -> *Matricola 612163*
 - [xXACE1304Xx](https://github.com/xXACE1304Xx) -> *Matricola 612164*
   
