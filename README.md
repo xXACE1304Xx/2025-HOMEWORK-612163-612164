@@ -9,7 +9,15 @@ puoi raccoglierli, usarli, posarli quando ti sembrano inutili
 o regalarli se pensi che possano ingraziarti qualcuno.
 
 
+
+
 ## Autori
 - [Sharki8](https://github.com/Sharki8) -> *Matricola 612163*
 - [xXACE1304Xx](https://github.com/xXACE1304Xx) -> *Matricola 612164*
   
+## Versioni
+.
+.
+.
+.
+.
