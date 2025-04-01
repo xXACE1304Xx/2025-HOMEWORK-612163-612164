@@ -9,7 +9,7 @@ puoi raccoglierli, usarli, posarli quando ti sembrano inutili
 o regalarli se pensi che possano ingraziarti qualcuno.
 
 ## Lista comandi
-- **Vai**: ****permette di spostarsi da una stanza all'altra deve essere seguito dalla direzione (nord, sud, est, ovest)****;
+- **Vai**: *permette di spostarsi da una stanza all'altra deve essere seguito dalla direzione (nord, sud, est, ovest)*;
 - **Prendi**: *permette di prendere oggetti dalle stanze e inserirli nella borsa*;
 - **Posa**: *permette di posare oggetti presenti nella borsa, nelle stanze*;
 - **Borsa**: *permette di visualizzare il contenuto della borsa*;
