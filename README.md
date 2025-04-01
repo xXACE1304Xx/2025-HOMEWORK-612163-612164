@@ -17,8 +17,4 @@ o regalarli se pensi che possano ingraziarti qualcuno.
 - [xXACE1304Xx](https://github.com/xXACE1304Xx) -> *Matricola 612164*
   
 ## Versioni
-.
-.
-.
-.
-.
+- [DiaDia versione 1.A](https://github.com/xXACE1304Xx/2025-HOMEWORK-612163-612164/tree/main/src)
