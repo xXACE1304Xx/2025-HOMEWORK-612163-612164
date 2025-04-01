@@ -19,11 +19,11 @@ o regalarli se pensi che possano ingraziarti qualcuno.
 
 
 ## Autori
-- [Docente Programmazione orientata agli oggetti](https://media.licdn.com/dms/image/v2/C4D03AQH6n2YX6X0eHw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1526155339144?e=2147483647&v=beta&t=A_p_5ETNYCjXwLE4YtbzX4xZNsKiVp-ml5CgU4czjSw) Università degli studi Roma Tre
+- [Docente Programmazione orientata agli oggetti](https://www.uniroma3.it/persone/a3JDN1RYZ1A2TFcyUjZQQTA5R1BHR09HYlNGRWlNVi8raHR0OWtmUm9jYz0=/) Università degli studi Roma Tre
 - [Sharki8](https://github.com/Sharki8) -> *Matricola 612163*
 - [xXACE1304Xx](https://github.com/xXACE1304Xx) -> *Matricola 612164*
   
 ## Versioni
 - [DiaDia versione 1.A](https://github.com/xXACE1304Xx/2025-HOMEWORK-612163-612164/tree/main/src) (non sono noti errori)
 
-https://www.uniroma3.it/persone/a3JDN1RYZ1A2TFcyUjZQQTA5R1BHR09HYlNGRWlNVi8raHR0OWtmUm9jYz0=/
+
