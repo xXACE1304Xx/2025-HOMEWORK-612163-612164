@@ -1,4 +1,4 @@
-# Dia Dia
+# DiaDia
 
 ## Descrizione
 Ti trovi nell'Università, ma oggi è diversa dal solito...
