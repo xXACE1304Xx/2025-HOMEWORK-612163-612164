@@ -2,6 +2,7 @@ package it.uniroma3.diadia.giocatore;
 
 import it.uniroma3.diadia.attrezzi.Attrezzo;
 
+
 public class Borsa {
 	public final static int DEFAULT_PESO_MAX_BORSA = 10;
 	public final static int DEFAULT_ATTREZZI_MAX_BORSA = 10;
@@ -32,7 +33,7 @@ public class Borsa {
 	
 	public Attrezzo getAttrezzo(String nomeAttrezzo) {
 		Attrezzo a = null;
-		for (int i= 0; i<this.numeroAttrezzi; i++)
+		for (int i= 0; i < this.numeroAttrezzi; i++)
 			if (this.attrezzi[i].getNome().equals(nomeAttrezzo))
 				a = attrezzi[i];
 
@@ -41,7 +42,7 @@ public class Borsa {
 	
 	public int getPeso() {
 		int peso = 0;
-		for (int i= 0; i<this.numeroAttrezzi; i++)
+		for (int i= 0; i < this.numeroAttrezzi; i++)
 			peso += this.attrezzi[i].getPeso();
 
 		return peso;
@@ -56,9 +57,9 @@ public class Borsa {
 	}
 	
 	public boolean removeAttrezzo(String nomeAttrezzo) {
-		for (int i=0; i<numeroAttrezzi; i++) {
+		for (int i=0; i < numeroAttrezzi; i++) {
 			if(nomeAttrezzo.equals(attrezzi[i].getNome())) {
-				for(int j=i; j<numeroAttrezzi-1; j++)
+				for(int j=i; j < numeroAttrezzi-1; j++)
 					attrezzi[j] = attrezzi[j+1];
 				numeroAttrezzi--;
 				attrezzi[numeroAttrezzi] = null;
@@ -73,7 +74,7 @@ public class Borsa {
 
 		if (!this.isEmpty()) {
 			s.append("Contenuto borsa ("+this.getPeso()+"kg/"+this.getPesoMax()+"kg): ");
-			for (int i=0; i<this.numeroAttrezzi; i++)
+			for (int i=0; i < this.numeroAttrezzi; i++)
 				s.append(attrezzi[i].toString()+" ");
 		}
 		else
