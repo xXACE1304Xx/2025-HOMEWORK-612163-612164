@@ -25,5 +25,5 @@ o regalarli se pensi che possano ingraziarti qualcuno.
   
 ## Versioni
 - [DiaDia versione 1.A](https://github.com/xXACE1304Xx/2025-HOMEWORK-612163-612164/tree/main/src) (non sono noti errori)
-
+- [DiaDia versione 1.B] () (non sono noti errori)
 
