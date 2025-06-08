@@ -8,11 +8,10 @@ public class IOConsole implements IO {
 	public void mostraMessaggio(String msg) {
 		System.out.println(msg);
 	}
+
+	private Scanner scanner = new Scanner(System.in);
 	
 	public String leggiRiga() {
-			Scanner scannerDiLinee = new Scanner(System.in);
-			String riga = scannerDiLinee.nextLine();
-			//scannerDiLinee.close();
-			return riga;
+		return scanner.nextLine();
 	}
 }

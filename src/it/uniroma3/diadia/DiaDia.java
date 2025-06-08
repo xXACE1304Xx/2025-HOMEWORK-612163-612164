@@ -1,7 +1,8 @@
 package it.uniroma3.diadia;
 
+import it.uniroma3.diadia.ambienti.Labirinto;
 import it.uniroma3.diadia.comandi.Comando;
-import it.uniroma3.diadia.comandi.FabbricaDiComandiFisarmonica;
+import it.uniroma3.diadia.comandi.FabbricaComandiRiflessiva;
 
 
 public class DiaDia {
@@ -19,12 +20,12 @@ public class DiaDia {
     private Partita partita;
     private IO IO;
 
-    public DiaDia(IO IO) {
+    public DiaDia(Labirinto labirinto, IO IO) {
     	this.IO = IO;
-		this.partita = new Partita();
+		this.partita = new Partita(labirinto);
     }
 
-    public void gioca() {
+    public void gioca() throws Exception {
         String istruzione;      
         
         IO.mostraMessaggio(MESSAGGIO_BENVENUTO + partita.getStanzaCorrente().getNome());
@@ -33,10 +34,10 @@ public class DiaDia {
         } while (!processaIstruzione(istruzione));
     }
 
-    private boolean processaIstruzione(String istruzione) {
+    private boolean processaIstruzione(String istruzione) throws Exception {
     	
     	Comando comandoDaEseguire;
-    	FabbricaDiComandiFisarmonica factory = new FabbricaDiComandiFisarmonica(this.IO);
+    	FabbricaComandiRiflessiva factory = new FabbricaComandiRiflessiva(this.IO);
     	comandoDaEseguire = factory.costruisciComando(istruzione);
     	comandoDaEseguire.esegui(this.partita);
     	
@@ -46,11 +47,13 @@ public class DiaDia {
 			IO.mostraMessaggio("Hai perso! I CFU sono finiti.");
 
     	return this.partita.isFinita();
-    	}
-    
-    public static void main(String[] argc) {
-    	IO IO = new IOConsole();
-        DiaDia gioco = new DiaDia(IO);
-        gioco.gioca();
     }
+    
+    public static void main(String[] argc) throws Exception {
+    	
+    	IO IO = new IOConsole();
+		Labirinto labirinto = Labirinto.newBuilder("C:/Users/Carmen/Desktop/Labirinto.txt").getLabirinto();
+		DiaDia gioco = new DiaDia(labirinto, IO);
+		gioco.gioca();
+	}
 }

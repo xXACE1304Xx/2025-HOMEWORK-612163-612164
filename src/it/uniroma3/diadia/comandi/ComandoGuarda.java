@@ -4,9 +4,7 @@ import it.uniroma3.diadia.Partita;
 import it.uniroma3.diadia.IO;
 
 
-public class ComandoGuarda implements Comando {
-	
-	private IO IO;
+public class ComandoGuarda extends AbstractComando {
 	
 	@Override
 	public void esegui(Partita partita) {
@@ -16,20 +14,7 @@ public class ComandoGuarda implements Comando {
 	}
 
 	@Override
-	public void setParametro (String parametro) {}
-
-	@Override
-	public void setIO(IO IO) {
-		this.IO = IO;
-	}
-
-	@Override
 	public String getNome() {
 		return "guarda";
-	}
-	
-	@Override
-	public String getParametro() {
-		return null;
 	}
 }

@@ -11,10 +11,10 @@ public class Partita {
     private Giocatore giocatore;
     private Labirinto labirinto;
 
-    public Partita() {
+    public Partita(Labirinto labirinto) {
     	this.finita = false;
-    	this.labirinto = new Labirinto();  // Creazione del labirinto
-        this.giocatore = new Giocatore();  // Crea un giocatore
+    	this.labirinto = labirinto;
+        this.giocatore = new Giocatore();
     }
 
     public Stanza getStanzaVincente() {

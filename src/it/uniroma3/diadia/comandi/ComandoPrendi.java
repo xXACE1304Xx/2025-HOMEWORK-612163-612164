@@ -2,13 +2,9 @@ package it.uniroma3.diadia.comandi;
 
 import it.uniroma3.diadia.Partita;
 import it.uniroma3.diadia.ambienti.StanzaBuia;
-import it.uniroma3.diadia.IO;
 
 
-public class ComandoPrendi implements Comando{
-	
-	private IO IO;
-	private String parametro;
+public class ComandoPrendi extends AbstractComando{
 
 	@Override
 	public void esegui(Partita partita) {
@@ -16,9 +12,9 @@ public class ComandoPrendi implements Comando{
 		StanzaBuia fittizia = new StanzaBuia("fittizia","inesistente") ;
         if(partita.getStanzaCorrente().getDescrizione().equals(fittizia.getDescrizione()))
             IO.mostraMessaggio(fittizia.getDescrizione());
-        else if(partita.getStanzaCorrente().hasAttrezzo(parametro))//controlla che ci sia	
-    		if(partita.getGiocatore().getBorsa().addAttrezzo(partita.getStanzaCorrente().getAttrezzo(parametro))) {	
-    			partita.getStanzaCorrente().removeAttrezzo(partita.getStanzaCorrente().getAttrezzo(parametro)); 
+        else if(partita.getStanzaCorrente().hasAttrezzo(this.parametro))//controlla che ci sia	
+    		if(partita.getGiocatore().getBorsa().addAttrezzo(partita.getStanzaCorrente().getAttrezzo(this.parametro))) {	
+    			partita.getStanzaCorrente().removeAttrezzo(partita.getStanzaCorrente().getAttrezzo(this.parametro)); 
     			IO.mostraMessaggio("Attrezzo preso!");
     		}
     		else
@@ -28,22 +24,7 @@ public class ComandoPrendi implements Comando{
 	}
 
 	@Override
-	public void setParametro(String parametro) {
-		this.parametro = parametro;
-	}
-
-	@Override
-	public void setIO(IO IO) {
-		this.IO = IO;
-	}
-
-	@Override
 	public String getNome() {
 		return "prendi";
-	}
-
-	@Override
-	public String getParametro() {
-		return this.parametro;
 	}
 }
